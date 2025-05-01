@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Discover a vast selection of books at Crazy Book Lady. Browse, read detailed reviews, purchase your favorite books and enjoy reliable shipping services."
+    />
+    <meta
+      name="keywords"
+      content="books, book reviews, bookshop, buy books online, reliable shipping, literature, reading, Crazy Book Lady"
+    />
+    <meta name="author" content="Ariane Pérez Medina" />
+    <link
+      rel="icon"
+      href="./assets/Crazy_Book_Lady_Logo.jpg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="proyecto.js" defer></script>
+    <title>Crazy Book Lady</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar"></nav>
+    </header>
+
+    <main>
+      <section id="categories" class="category"></section>
+      <div class="container">
+        <aside id="filters" class="filter">
+          <h2>FILTERS</h2>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search by title or author..."
+          />
+          <input type="number" id="minPrice" placeholder="Minimum Price" />
+          <input type="number" id="maxPrice" placeholder="Maximun Price" />
+          <button id="searchBtn">Search</button>
+        </aside>
+
+        <section id="book-container" class="books"></section>
+      </div>
+    </main>
+
+    <footer id="footer-container">
+      <p>&copy; 2025 Crazy Book Lady. All rights reserved</p>
+      <nav class="footer-nav">
+        <a href="#">Legal Notice</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Privacity Policy</a>
+        <a href="#">Cookie Policy</a>
+      </nav>
+    </footer>
+  </body>
+</html>
